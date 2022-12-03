@@ -1,7 +1,9 @@
 package vista;
 
+import main.Eventos;
+
 public interface AdministradorVista {
 
-	public void update();
+	public void update(Eventos evento);
 
 }
